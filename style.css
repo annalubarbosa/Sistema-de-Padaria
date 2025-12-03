@@ -191,14 +191,59 @@ header .cadastro {
     text-align: center;
     background: #b07d62;
 }
+.checkout-container .resumo-pedido h2{
+    color: #603808;
+}
 
 .dados-cliente {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+.dados-cliente h2{
+    color: #603808;
+}
 
-.form-finalizar {
+.form-finalizar  {
     display: flex;
     flex-direction: column;
+   
 }
+.form-finalizar label{
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-finalizar label:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+.dados-cliente .form-finalizar #nome{
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 20px;
+
+}
+.dados-cliente .form-finalizar #telefone{
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 20px;
+
+}
+.dados-cliente .form-finalizar #pagamento{
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 20px;
+
+}
+.dados-cliente .form-finalizar #observacoes{
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 20px;
+
+}
+dados-cliente .form-finalizar button{
+    border-radius: 60px;
+    height: 50px;
+    width: 20px;
+}
+
